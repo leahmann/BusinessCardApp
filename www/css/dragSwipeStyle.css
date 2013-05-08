@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+		body{ background: #CCC; padding:0; margin: 0;}
+		
+		div.carousel_wrapper {
+			width: 480px;
+			height: 320px;
+			overflow: hidden;			
+			background:#000;
+			position:relative;
+
+		}
+		ul.carousel {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 1440px;
+			height: 320px;
+			overflow: hidden;
+			background:#FFF;
+			position:relative;
+		}
+		ul.carousel li {
+			width: 480px;
+			height: 320px;
+			float: left;
+			display:block;
+		}
+		ul.carousel li:nth-child(2n) {
+			background: #369;
+			color: #FFF;
+		}
+
+		ul.carousel li p {
+			margin: 10px;
+		}
+				
+	
