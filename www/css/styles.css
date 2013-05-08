@@ -12,7 +12,7 @@
 /* MOBILE STYLES: PORTRAIT */
 @media only screen and (max-width: 479px){
 	
-	#contentContainer{
+	#container{
 		visibiltiy:hidden;
 	}
 	
@@ -30,11 +30,11 @@
 		width:480px;
 		height:320px;
 		background-color:#000;
-		background-image:url(../images/backgroundDark.jpg);
-		-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+		background-image:url(../images/backgroundFirst.jpg);
+		/*-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
 		-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
 		-o-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
-		box-shadow: 0 0px 5px 5px rgba(0,0,0,0.5);
+		box-shadow: 0 0px 5px 5px rgba(0,0,0,0.5);*/
 		z-index:1;
 	}
 	
@@ -49,11 +49,45 @@
 		width:480px;
 		height:320px;
 		background-color:#CCCCCC;
+		background-image:url(../images/backgroundGray.jpg);
+	}
+	
+	table {
+		text-align:left;
+		width:100%;
+		margin-right:auto;
+		margin-left:auto;
+	}
+	
+	.headerName{width:27%;}
+	.headerEmail{width:40%;}
+	.headerPhoneNumber{width:33%}
+	
+	th{
+		font-family:'WellfleetRegular';
+		font-size:16px;
+		color:#FFCC00;
+		background-color:#000;
+		padding-left:20px;
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+	
+	td{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		padding-left:20px;
+		padding-top:5px;
+		
+	}
+	
+	.rowEnd{
+		padding-right:0px;
 	}
 	
 	header{
 		width:60%;
-		padding-top:150px;
+		padding-top:200px;
 		margin-right:auto;
 		margin-left:auto;
 	}
@@ -66,6 +100,16 @@
 		text-align:left;
 		/*margin-top:150px;*/
 		float:left;
+	}
+	
+	/*h2{
+		font-family:'WellfleetRegular';
+		font-size:16px;
+		color:#000;
+	}*/
+	
+	#listContainer{
+		margin-top:10px;
 	}
 	
 	#arrow{
@@ -144,7 +188,7 @@
 	#saveForm{
 		width:108px;
 		height:27px;
-		background-image:url(../images/submitButton.png);
+		background-image:url(../images/submitButton4.png);
 		background-color:none;
 		border-style:none;
 		color:#333333;
@@ -155,7 +199,7 @@
 	}
 	
 	#saveForm:hover{
-		background-position:left -29px;
+		background-position:left -27px;
 		color:#000000;
 	}
 	
@@ -167,6 +211,7 @@
 	#container{
 		visibility:hidden;
 	}
+}
 
 /* TABLET STYLES: LANDSCAPE */
 @media only screen and (min-width: 960px) and (max-width: 1024px){

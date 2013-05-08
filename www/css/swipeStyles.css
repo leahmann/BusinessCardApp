@@ -4,6 +4,8 @@
 	
 	#container {
 		width: 480px;
+		margin-right:auto;
+		margin-left:auto;
 	}
 	
 	#imageSlider{
@@ -26,6 +28,11 @@
 		float:left;
 		/*overflow:scroll*/
 	}
+	
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
 	
 	#buttonContainer{
 		width:120px;
@@ -55,13 +62,34 @@
 	
 }
 
-/* TABLET STYLES */
-@media only screen and (min-width: 768px) and (max-width: 1024px){
-	
-}
-
 /* DESKTOP STYLES */
 @media only screen and (min-width: 1025px){
+	
+	#buttonContainer{
+		width:120px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	#sliderNextButton, #sliderPrevButton{
+		display:block;
+		width:40px;
+		height:40px;
+	}
+	
+	#sliderNextButton{
+		background:url(../images/nextArrow.jpg) center center;
+		float:right;
+	}
+	
+	#sliderPrevButton{
+		background:url(../images/prevArrow.jpg) center center;
+		float:left;
+	}
+	
+	#sliderNextButton:hover, #sliderPrevButton:hover{
+		
+	}
 
 }
 
