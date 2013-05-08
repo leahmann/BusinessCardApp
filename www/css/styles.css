@@ -12,124 +12,15 @@
 /* MOBILE STYLES: PORTRAIT */
 @media only screen and (max-width: 479px){
 	
-	#first{
-		width:100%;
-		/*height:480px;*/
-		background-color:#000;
-		background-image:url(../images/backgroundDark.jpg);
-		-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
-		-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
-		-o-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
-		box-shadow: 0 0px 5px 5px rgba(0,0,0,0.5);
-		z-index:1;
-	}
-	
-	#second{
-		width:100%;
-		/*height:480px*/
-		background-color:#FFCC00;
-		background-image:url(../images/backgroundYellow.jpg);
-	}
-	
-	h1{
-		font-family:'WellfleetRegular';
-		font-size:30px;
-		color:#FFCC00;
-		width:100%;
-		text-align:center;
-		padding-top:220px;
-	}
-	
-	#arrow{
-		background-image:url(../images/arrow1.png);
-		width:20px;
-		height:19px;
-		margin-left:auto;
-		margin-right:auto;
-		margin-top:30px;
-	}
-	
-	#arrowLink{
-		display:block;
-		width:20px;
-		height:19px;
-	}
-	
-	/****FORM****/
-	
-	form{
-		/*background-color:#FFCC00;*/
-	}
-	
-	form ul{
-		height:339px;
-	}
-	
-	form #foli11{
-		padding-top:100px;
-	}
-	
-	form .desc{
-		font-family:'WellfleetRegular';
-		font-size:16px;
-		color:#000;
-		margin-left:10%;
-		
-	}
-	
-	form .field{
-		margin-top:5px;
-		margin-bottom:20px;
-		margin-left:10%;
-		margin-right:10%;
-		border-radius: 2px;
-		-moz-border-radius: 2px;
-		-webkit-border-radius: 2px;
-		-o-border-radius: 2px;
-		color:#999;
-	}
-	
-	form .text{
-		width:78%;
-		font-family:'WellfleetRegular';
-		font-size:16px;
-		background-color:#FFFFFF;
-		border-style:none;
-		height:30px;
-		padding-left:10px;
-	}
-	
-	form .buttons{
-		float:right;
-		margin-right:10%;
-	}
-	
-	form .hide{
-		visibility:hidden;
-	}
-	
-	#saveForm{
-		width:108px;
-		height:27px;
-		background-image:url(../images/submitButton.png);
-		background-color:none;
-		border-style:none;
-		color:#333333;
-		/*font-family: 'Helvetica_Neue_Bold_Web';
-		font-size:10px;
-		text-transform:uppercase;*/
-		margin-top:5px;
-	}
-	
-	#saveForm:hover{
-		background-position:left -29px;
-		color:#000000;
+	#contentContainer{
+		visibiltiy:hidden;
 	}
 	
 }
 
 /* MOBILE STYLES: LANDSCAPE */
 @media only screen and (min-width: 480px) and (max-width: 767px){
+/*@media only screen and (max-width: 767px){*/
 	
 	/*#contentContainer{
 		width:100%;
@@ -273,28 +164,14 @@
 /* TABLET STYLES: PORTRAIT */
 @media only screen and (min-width: 768px) and (max-width: 959px){
 	
-	#first{
+	#container{
 		visibility:hidden;
 	}
-	
-	#second{
-		visibility:hidden;
-	}
-	
-	#third{
-		visibility:hidden;
-	}
-	
-}
 
 /* TABLET STYLES: LANDSCAPE */
 @media only screen and (min-width: 960px) and (max-width: 1024px){
 	
-	#first{
-		visibility:hidden;
-	}
-	
-	#second{
+	#container{
 		visibility:hidden;
 	}
 	
@@ -303,11 +180,7 @@
 /* DESKTOP STYLES */
 @media only screen and (min-width: 1025px){
 	
-	#first{
-		visibility:hidden;
-	}
-	
-	#second{
+	#container{
 		visibility:hidden;
 	}
 	

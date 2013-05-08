@@ -1,0 +1,67 @@
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 767px){
+	
+	#container {
+		width: 480px;
+	}
+	
+	#imageSlider{
+		position:relative;
+		width:480px;
+		height:320px; 
+		overflow:hidden;
+	}
+	
+	#slider{
+		position:absolute;
+		width:999999px;
+		height:100%;
+	}
+	
+	#imageSlider #slider .sliderBlock{
+		width:480px;
+		height:320px;
+		display:block;
+		float:left;
+		/*overflow:scroll*/
+	}
+	
+	#buttonContainer{
+		width:120px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	#sliderNextButton, #sliderPrevButton{
+		display:block;
+		width:40px;
+		height:40px;
+	}
+	
+	#sliderNextButton{
+		background:url(../images/nextArrow.jpg) center center;
+		float:right;
+	}
+	
+	#sliderPrevButton{
+		background:url(../images/prevArrow.jpg) center center;
+		float:left;
+	}
+	
+	#sliderNextButton:hover, #sliderPrevButton:hover{
+		
+	}
+	
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	
+}
+
+/* DESKTOP STYLES */
+@media only screen and (min-width: 1025px){
+
+}
+
