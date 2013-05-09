@@ -22,20 +22,12 @@
 @media only screen and (min-width: 480px) and (max-width: 767px){
 /*@media only screen and (max-width: 767px){*/
 	
-	/*#contentContainer{
-		width:100%;
-	}*/
-	
 	#first{
 		width:480px;
 		height:320px;
 		background-color:#000;
 		background-image:url(../images/backgroundFirst.jpg);
-		/*-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
-		-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
-		-o-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
-		box-shadow: 0 0px 5px 5px rgba(0,0,0,0.5);*/
-		z-index:1;
+
 	}
 	
 	#second{
@@ -98,24 +90,17 @@
 		color:#FFCC00;
 		width:auto;
 		text-align:left;
-		/*margin-top:150px;*/
 		float:left;
 	}
-	
-	/*h2{
-		font-family:'WellfleetRegular';
-		font-size:16px;
-		color:#000;
-	}*/
 	
 	#listContainer{
 		margin-top:10px;
 	}
 	
 	#arrow{
-		background-image:url(../images/arrow1.png);
+		background-image:url(../images/arrow.png);
 		width:20px;
-		height:19px;
+		height:18px;
 		margin-left:auto;
 		margin-right:auto;
 		margin-top:10px;
@@ -188,13 +173,9 @@
 	#saveForm{
 		width:108px;
 		height:27px;
-		background-image:url(../images/submitButton4.png);
+		background-image:url(../images/submitButton.png);
 		background-color:none;
 		border-style:none;
-		color:#333333;
-		/*font-family: 'Helvetica_Neue_Bold_Web';
-		font-size:10px;
-		text-transform:uppercase;*/
 		margin-top:5px;
 	}
 	
